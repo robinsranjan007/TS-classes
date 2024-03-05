@@ -100,3 +100,21 @@ class mclas{
 
 // naruto._cvvnumber=78; cannot access this as this is private member of the first class
 //    naruto.emailId; cannot access this as this is protected member of the first class    
+
+interface MyInterface {
+    readonly readOnlyValue: number;
+    mutableValue: string;
+    anotherMutableValue: boolean;
+}
+
+// Create an object of the interface
+let myObject: MyInterface = {
+    readOnlyValue: 10,
+    mutableValue: "Hello",
+    anotherMutableValue: true
+};
+
+console.log(myObject); // Output: { readOnlyValue: 10, mutableValue: "Hello", anotherMutableValue: true }
+
+// Attempting to change the readonly property will result in a compilation error
+// myObject.readOnlyValue = 20; // Error: Cannot assign to 'readOnlyValue' because it is a read-only property.
