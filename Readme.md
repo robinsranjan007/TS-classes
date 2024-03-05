@@ -1,4 +1,4 @@
-#TYPE SCRIPT CLASSES
+# TYPE SCRIPT CLASSES
 
 ## Public,Protected,private,class extended,and concept of super()
 
