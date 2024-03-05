@@ -2,6 +2,8 @@ class mclas{
 
     fname:string;
     lname:string;
+    hokagename:string='robins'
+    // If one of the properties in the Person class is marked as readonly, it means that it can only be assigned a value once either in the declaration or in the constructor of the class. 
     
     protected emailId:string;
     protected accountnumber:number;
@@ -18,6 +20,11 @@ class mclas{
         this._cardnumber=_cardnumber;
         this._cvvnumber = _cvvnumber;
     }
+    
+// set hokagename(hokage:string)
+// {
+// this.hokagename =hokage
+// }  cannot set hokagename cause it is readonly
     
     set fnames(fname:string)
     {
