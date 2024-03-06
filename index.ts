@@ -2,7 +2,7 @@ class mclas{
 
     fname:string;
     lname:string;
-    hokagename:string='robins'
+  readonly  hokagename:string='robins'
     
     
     protected emailId:string;
