@@ -16,3 +16,6 @@ cheat sheet
 6- but in readonly you can access the member but cannot modify it
 
  7-If one of the properties in the Person class is marked as readonly, it means that it can only be assigned a value once either in the declaration or in the constructor of the class. 
+
+ ## shocking revelation if you have interface and you want to set these values as private or protected in the class which implements these interface then it shows error as you cannot declare them private or protected 
+ ## the trick here is define an INTERFACE extend this INTERFACE now add all those property into these extended INTERFACES in which you want to declare them as private or protected inside the constructor of the see example learn interface line number 16
