@@ -10,7 +10,7 @@ interface card extends details{
     readonly accountnumber:number,
     readonly cardnumber:number,
 }
-
+    
 class mycard implements details{
 
 constructor(public tiger:string,public fname:string, public lname:string,public email:string, private accountnumber:number,private cardnumber:number,private carddetails:number){

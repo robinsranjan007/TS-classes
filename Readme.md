@@ -1,4 +1,6 @@
-# TYPE SCRIPT CLASSES
+# TYPE SCRIPt
+
+## This file cover interfaces,readonly, classes, private,protected,public, interfaces with classes and abstract classes
 
 ## Public,Protected,private,class extended,and concept of super()
 
@@ -19,4 +21,7 @@ cheat sheet
 
  ## shocking revelation if you have interface and you want to set these values as private or protected in the class which implements these interface then it shows error as you cannot declare them private or protected 
  ## the trick here is define an INTERFACE extend this INTERFACE now add all those property into these extended INTERFACES in which you want to declare them as private or protected inside the constructor of the see example learn interface line number 16
+
+
+
  

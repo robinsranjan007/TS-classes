@@ -118,3 +118,11 @@ console.log(myObject); // Output: { readOnlyValue: 10, mutableValue: "Hello", an
 
 // Attempting to change the readonly property will result in a compilation error
 // myObject.readOnlyValue = 20; // Error: Cannot assign to 'readOnlyValue' because it is a read-only property.
+
+ 
+
+
+function printname(names:string)
+{
+    return names;
+}
